@@ -1,0 +1,61 @@
+@import "globals.css";
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 8px rgba(175, 175, 175, 0.3);
+    height: 100%;
+    margin: 10px;
+    background-color: white;
+    padding: 8px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 8px rgba(50, 50, 50, 0.3);
+}
+
+.card img {
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    display: block;
+    width: 100%;
+}
+
+.card > .content {
+    background: #ffffff;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    padding: 1rem;
+    text-align: center;
+    min-height: 100px;
+    width: 100%;
+}
+
+.card > .content h2 {
+    font-size: 1.6rem;
+    line-height: 1;
+    text-align: right;
+    font-weight: normal;
+    margin-bottom: 3.2rem;
+}
+
+.card > .content > .chip-star-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card > .content > .price {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 16px 0 0 0;
+}
+
+.card > .content h3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 300;
+    padding-right: 1.6rem;
+}

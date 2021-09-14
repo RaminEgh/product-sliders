@@ -1,0 +1,1 @@
+export const $products = `${process.env.BASE_API}/products`
